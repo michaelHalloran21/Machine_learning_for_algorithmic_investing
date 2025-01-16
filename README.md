@@ -1,2 +1,2 @@
-# DSP577-repo
+# Stock_Prediction_with_Machine_Learning
 Repository for Interdisciplinary Data Enabled Research/Capstone Project
