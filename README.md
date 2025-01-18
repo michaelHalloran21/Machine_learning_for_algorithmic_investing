@@ -4,7 +4,7 @@ A Python-based project leveraging machine learning to develop a stock trading al
 
 ## Features
 
-- **Data Collection**: Automatically fetch stock data for S&P 500 companies using Yahoo Finance.
+- **Data Collection**: Automatically fetch stock data for S&P 500 companies using OpenBB, but sourced from Yahoo Finance.
 - **Feature Engineering**: Calculate technical indicators such as SMA, EMA, MACD, and RSI to enhance predictive accuracy.
 - **Machine Learning**: Train a Random Forest Classifier to predict market direction based on technical indicators.
 - **Backtesting**: Evaluate strategy performance against historical data and compare cumulative returns with market performance.
