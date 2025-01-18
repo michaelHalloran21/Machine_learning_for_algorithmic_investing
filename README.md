@@ -16,3 +16,11 @@ This project is ideal for researchers, data enthusiasts, and algorithmic trading
 
 ---
 
+## Outcomes
+
+---
+
+
+## Conclusion
+
+---
