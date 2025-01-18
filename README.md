@@ -8,7 +8,7 @@ A Python-based project leveraging machine learning to develop a stock trading al
 - **Feature Engineering**: Calculate technical indicators such as SMA, EMA, MACD, and RSI to enhance predictive accuracy.
 - **Machine Learning**: Train a Random Forest Classifier to predict market direction based on technical indicators.
 - **Backtesting**: Evaluate strategy performance against historical data and compare cumulative returns with market performance.
-- **Advanced Analytics**: Integrate Quantstats for detailed strategy analysis and performance metrics.
+- **Advanced Analytics**: Integrate Pyfolio and Quantstats for detailed strategy analysis and performance metrics.
 
 ## Purpose
 
