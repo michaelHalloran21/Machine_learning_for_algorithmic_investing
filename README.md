@@ -45,3 +45,28 @@ This project leverages machine learning to develop an advanced stock trading alg
 2. Tools for identifying market drivers and optimizing trading signals.
 3. A comprehensive framework for evaluating performance against benchmarks and market conditions.
 
+---
+
+## How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository/Stock_Prediction_with_Machine_Learning.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the notebooks in sequence to:
+   - Explore and preprocess data.
+   - Train models and generate predictions.
+   - Backtest strategies and evaluate performance.
+  
+---
+
+## Contributors
+- Michael Halloran
+- Stephen Grivers
+- Andrew Dunham
+  
+This project is part of the DSP 577 - Data Enabled Capstone.
