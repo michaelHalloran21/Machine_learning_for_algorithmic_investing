@@ -51,7 +51,7 @@ This project leverages machine learning to develop an advanced stock trading alg
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repository/Stock_Prediction_with_Machine_Learning.git
+   git clone https://github.com/michaelHalloran21/Stock_Prediction_with_Machine_Learning.git
    ```
 2. Install dependencies:
    ```bash
