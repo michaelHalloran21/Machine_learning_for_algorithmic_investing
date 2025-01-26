@@ -24,8 +24,8 @@ This project leverages machine learning to develop an advanced stock trading alg
 - Correlation analysis is performed to avoid multicollinearity.
 
 ### 3. **Machine Learning Models**
-- **Random Forest** and **XGBoost** are used for predictive modeling of market direction based on engineered features.
-- **Recurrent Neural Networks (LSTM)** are implemented to capture temporal dependencies in time-series data.
+- Random Forest and XGBoost are used for predictive modeling of market direction based on engineered features.
+- Recurrent Neural Networks (LSTM) are implemented to capture temporal dependencies in time-series data.
 - Hyperparameter tuning and cross-validation ensure optimal model performance.
 
 ### 4. **Backtesting and Performance Evaluation**
