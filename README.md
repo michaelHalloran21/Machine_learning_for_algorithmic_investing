@@ -7,7 +7,7 @@ This project leverages machine learning to develop an advanced stock trading alg
 ## Project Goals
 
 1. Develop a scalable, machine-learning-driven trading model capable of generating accurate and risk-managed trading signals.
-2. Identify predictive factors such as price momentum, volatility, and macroeconomic indicators.
+2. Identify predictive factors such as price momentum and volatility.
 3. Create a robust framework to model nonlinear market relationships and adapt to changing market conditions.
 
 ---
@@ -39,9 +39,10 @@ This project leverages machine learning to develop an advanced stock trading alg
 
 ## Project Outcomes
 
-1. A robust and adaptive trading strategy that integrates key predictive factors.
-2. Tools for identifying market drivers and optimizing trading signals.
-3. A comprehensive framework for evaluating performance against benchmarks and market conditions.
+1. Tools for identifying market drivers and optimizing trading signals.
+2. A comprehensive framework for evaluating performance against benchmarks and market conditions.
+3. Minimium viable machine learning models for continued experimentation
+4. Minimium viable portfolio optimization
 
 ---
 
