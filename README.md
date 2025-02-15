@@ -20,13 +20,11 @@ This project leverages machine learning to develop an advanced stock trading alg
 
 ### 2. **Feature Engineering and Selection**
 - Feature importance is assessed using SHAP values, Mutual Information, and Gini Importance.
-- Recursive Feature Elimination (RFE) and BorutaPy are used to identify relevant features and eliminate noise.
 - Correlation analysis is performed to avoid multicollinearity.
 
 ### 3. **Machine Learning Models**
 - Random Forest and XGBoost are used for predictive modeling of market direction based on engineered features.
 - Recurrent Neural Networks (LSTM) are implemented to capture temporal dependencies in time-series data.
-- Hyperparameter tuning and cross-validation ensure optimal model performance.
 
 ### 4. **Backtesting and Performance Evaluation**
 - Strategies are backtested on historical data using Pyfolio, with performance compared against the S&P 500 as a benchmark.
