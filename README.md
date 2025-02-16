@@ -1,6 +1,6 @@
 # Stock Prediction with Machine Learning
 
-This project leverages machine learning to develop an advanced stock trading algorithm. The repository contains tools for data acquisition, feature engineering, model training, backtesting, and advanced analytics to create a robust, factor-based trading strategy. By integrating technical indicators, macroeconomic factors, and adaptive machine learning models, this project aims to optimize trading signals and improve risk-adjusted returns.
+This project leverages machine learning to develop an advanced stock trading algorithm. The repository contains tools for data acquisition, feature engineering, model training, backtesting, and advanced analytics to create a robust, factor-based trading strategy. By integrating technical indicators and adaptive machine learning models, this project aims to optimize trading signals and improve risk-adjusted returns.
 
 ---
 
@@ -15,7 +15,7 @@ This project leverages machine learning to develop an advanced stock trading alg
 ## Methodologies
 
 ### 1. **Data Collection**
-- Stock price data and macroeconomic indicators are sourced from Yahoo Finance using `yFinance` and OpenBB.
+- Stock price data is sourced from Yahoo Finance using `yFinance` and OpenBB.
 - Additional technical indicators such as RSI, Bollinger Bands, and MACD are calculated using the `ta` library.
 
 ### 2. **Feature Engineering and Selection**
@@ -37,12 +37,30 @@ This project leverages machine learning to develop an advanced stock trading alg
 
 ---
 
-## Project Outcomes
+## Results and Interpretation
 
-1. Tools for identifying market drivers and optimizing trading signals.
-2. A comprehensive framework for evaluating performance against benchmarks and market conditions.
-3. Minimium viable machine learning models for continued experimentation
-4. Minimium viable portfolio optimization
+**Key Findings:**  
+- The baseline models (Random Forest, XGBoost, LSTM) have shown only modest predictive performance.
+- SHAP analysis indicates that certain technical indicators (e.g., MACD, RSI) contribute more to model predictions, although the overall signal remains weak.
+- The portfolio optimization module, while currently producing minimal allocations in the early periods, provides a systematic framework for testing risk-adjusted strategies.
+
+**Interpretation and Limitations:**  
+- **Model Performance:**  
+  The models currently do not produce strong predictive signals. This might be due to a limited feature set or the inherent noise in financial markets.
+- **Framework Utility:**  
+  The strength of this project lies in its robust, modular framework, which allows for systematic testing and refinement of features, models, and portfolio strategies.
+- **Portfolio Optimization:**  
+  Early allocations are near zero, but the optimization framework is solid and can be refined as better signals are discovered.
+
+**Future Work:**  
+- **Enhance Feature Engineering:**  
+  Integrate additional technical and fundamental indicators.
+- **Model Tuning:**  
+  Explore advanced model architectures, ensemble methods, and hyperparameter tuning.
+- **Extended Backtesting:**  
+  Refine portfolio optimization techniques to better capture real-world trading constraints.
+- **Alternative Data Sources:**  
+  Incorporate sentiment data, macroeconomic indicators, or alternative data to boost predictive performance.
 
 ---
 
